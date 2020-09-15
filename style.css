@@ -1,0 +1,21 @@
+#clock {
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 8rem;
+    height: 14rem;
+    width: 39rem;
+    margin: 2rem auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: url(img/masaimarasunset.jpg) 30% 34%;
+    padding: 1rem;
+}
+
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
