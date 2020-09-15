@@ -7,6 +7,9 @@ function getTime() {
     let sec = time.getSeconds();
     am_pm = "AM";
 
+    if (hour == 12) {
+        am_pm = "PM";
+    }
     if (hour > 12) {
         hour -= 12;
         am_pm = "PM";
